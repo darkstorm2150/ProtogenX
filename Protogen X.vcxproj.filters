@@ -21,6 +21,12 @@
     <ClCompile Include="src\ModelLoader.cpp">
       <Filter>Header Files</Filter>
     </ClCompile>
+    <ClCompile Include="src\CudaManager.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\InferenceRunner.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="README.md" />
@@ -30,6 +36,12 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\ModelLoader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CudaManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\InferenceRunner.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

@@ -19,6 +19,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="src\CudaManager.cpp" />
+    <ClCompile Include="src\InferenceRunner.cpp" />
     <ClCompile Include="src\main.cpp" />
     <ClCompile Include="src\ModelLoader.cpp" />
   </ItemGroup>
@@ -29,6 +31,8 @@
     <Text Include="Blueprint.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\CudaManager.h" />
+    <ClInclude Include="src\InferenceRunner.h" />
     <ClInclude Include="src\ModelLoader.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
