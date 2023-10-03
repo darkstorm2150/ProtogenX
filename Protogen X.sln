@@ -5,11 +5,6 @@ VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Protogen X", "Protogen X.vcxproj", "{9FF59222-B9D4-407A-81F0-EDB1571B19B1}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4DE791F7-324C-4F2A-8A15-D1BF086BA9ED}"
-	ProjectSection(SolutionItems) = preProject
-		main.cpp = main.cpp
-	EndProjectSection
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
